@@ -40,5 +40,5 @@ app.delete("/api/flights/:flightId", (req, res) => {
 port = process.env.PORT || 5000;
 
 app.listen(port, () => {
-  console.log(`Airport Server running on port ${port}`);
+  console.log(`Airport Server running on port ${port}..`);
 });
